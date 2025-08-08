@@ -1,2 +1,2 @@
 # Accounting-Web-Application-Systems
-Web Application Systems used by Accountants made by me. This includes Muster Roll Systems and other toolkits that may meet your business needs.
+Web Application Systems used by Accountants made by me. This includes Muster Roll Systems and other toolkits that may meet your business needs. All these tools have been coded from scratch using PHP and use database connection via MySQL through PhpMyAdmin to access the Web Application System. You may test this program on LocalHost as well or if you decide to host it then it's possible as well.
