@@ -19,3 +19,28 @@ However, if you do have concerns about that and actually do want to host this We
 7. Accessing Daily Activity Reports (Reports of every employee everyday including their net salary after loan deduction).
 
 All this can be done with easy computations without the need of using complicated Muster Roll Books since the Digital System makes it much easier for you to manage your tasks. Happy Accounting.
+
+# Installation Process
+
+1. Download and Install the latest version of XAMPP from: https://www.apachefriends.org/download.html
+2. After Installing XAMPP, simply clone this repository using git or download this repository as a ZIP File
+3. Navigate to the Electronic_Muster_Roll_System Folder
+4. Open up XAMPP and be sure it's Run as an Administrator or else it won't work
+5. Once XAMPP is open, start the Apache and MySQL Servers
+6. Install the database by simply clicking on the Admin next to MySQL. This should immediately direct you to the Database Manager. From the Database Administration Panel, click on "Import" and choose the file in the database folder under the Electronic_Muster_Roll_System folder/directory and choose the alameen_muster_roll.sql file. Once the file is selected, scroll down and click on the "Import" button.
+7. Once the database is installed, majority of the installation is complete. All you have to do now is navigate to the folder where xampp is installed and open the htdocs folder/directory and make a backup of the content that's there. You can simply create a folder and move everything that's inside from the htdocs folder to the new created folder then copy the folder to documents or something and delete everything that's there in the htdocs folder that's left.
+8. Finally, all you have to do is copy all the files from the Electronic_Muster_Roll_System folder to the htdocs folder/directory. Once this is done, installation is complete.
+
+To gain the benefits of using and running the Web Application System, all you have to do is run localhost on your web browser and you'll have full access to the system.
+
+# Default Credentials to login to the system
+
+Username: admin
+Password: admin123.
+
+If those don't work, try:
+
+Username: admin
+Password: admin123
+
+NOTE: Password Reset System is implemented to work without any access control as stated earlier. It's highly recommended to change the default credentials once logged in and if hosting the Web Application Live then to keep the system as secure as possible by deleting the Password Reset Page while preserving a copy for later use, as stated earlier. Thanks.
